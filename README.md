@@ -40,7 +40,7 @@ cv2.imwrite(os.path.join(preprocessed_folder, processed_img_name), thresholding)
 4) reading table from image and writing it to .xlsx file
    
    <img width="464" alt="Screenshot 2024-10-20 at 02 59 25" src="https://github.com/user-attachments/assets/e7f25100-5999-46b4-9ac0-bfb27802ef51">
-as you can see it doesn't reads properly (1st version of this script), need to test another models
+as you can see it doesn't read properly (1st version of this script), need to test another models
 ```sh
 preprocessed_img.to_xlsx(os.path.join(output_excel, excel_name),
                                  ocr=ocr,
