@@ -49,8 +49,8 @@ preprocessed_img.to_xlsx(os.path.join(output_excel, excel_name),
                                  min_confidence=50)
 ```
 
-## Using TesseractOCR
-image from out camera
+## Using paddleOCR
+image from our camera
 ![img](https://github.com/user-attachments/assets/5b41b256-68a5-42f0-bbb2-81dc98aec927)
 processed image
 ![processed_file_7](https://github.com/user-attachments/assets/3c4c70a4-290c-4a44-a528-3a5f3eed761c)
